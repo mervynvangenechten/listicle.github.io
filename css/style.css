@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* b {
+    font-weight: 500;
+}
+
+body {
+    background-color: rgb(235,245,251);
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black;
+}
+
+.pageBox {
+    margin-top: 50px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: 'Poppins', 'sans serif';
+    font-size: 35px;
+    font-weight: 500;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Ubuntu', 'sans serif';
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 5px;
+}
+
+section {
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+
+section#Berninabahn {
+    background-image: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url(../img/Berninabahn.jpg);
+    background-size: cover;
+    border-bottom: 5px solid rgb(200,200,200);
+}
+
+section#Semmeringbahn {
+    background-image: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url(../img/20211031_091330.jpg);
+    background-size: cover;
+    border-bottom: 5px solid rgb(200,200,200);
+}
+
+section#Schwarzwaldbahn {
+    background-image: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)), url(../img/Schwarzwald_01.jpg);
+    background-size: cover;
+    border-bottom: 5px solid rgb(200,200,200);
+}
+
+section#GoldenPass {
+    background-image: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url(../img/GoldenPass02.jpg);
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+p {
+    font-family: 'Work Sans', 'sans serif';
+    font-size: 14px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+.spacing {
+    height: 15px;
+}
+
+.imgBox {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: flex;
+}
+
+.suggestionBox {
+    width: 25%;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 12.5px;
+    max-height: 100%;
+}
+
+.suggestionBox img {
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+}
+
+.suggestionBox p {
+    margin-top: 5px;
+    font-family: 'Poppins', 'sans serif';
+    font-size: 14px;
+    text-align: center;
+}
